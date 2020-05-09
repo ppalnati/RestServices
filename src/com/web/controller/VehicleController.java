@@ -8,11 +8,9 @@ import javax.ws.rs.core.Response;
 public interface VehicleController {
 	
 	@GET
-	@Produces(MediaType.APPLICATION_JSON)
 	public Response getVehicles();
 	
 	@GET
-	@Produces(MediaType.APPLICATION_JSON)
 	public Response getVehiclesbyId();
 
 		
